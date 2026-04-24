@@ -1,0 +1,6 @@
+{
+  "name": "Bilingual",
+  "description": "A real-time cross-language chat application where messages are automatically translated using AI, enabling seamless communication between people speaking different languages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
