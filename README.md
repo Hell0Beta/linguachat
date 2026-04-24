@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bilingual Chat
 
-# Run and deploy your AI Studio app
+A multilingual AI chat application powered by Google Gemini with real-time translation support. Built with React, TypeScript, Express, and MongoDB.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/f78b4415-dce4-4460-bc39-9812025f1af7
+- **Multi-language support** - Chat in multiple languages with automatic translation
+- **AI-powered responses** - Gemini API integration for intelligent conversations
+- **Real-time translation** - Translate messages between languages
+- **Persistent storage** - MongoDB integration for chat history
+- **QR code sharing** - Share conversations via QR codes
 
-## Run Locally
+## Quick Start
 
-**Prerequisites:**  Node.js
+1. Install dependencies: `npm install`
+2. Set environment variables in `.env`:
+   ```
+   GEMINI_API_KEY=your_gemini_key
+   MONGODB_URI=your_mongodb_connection_string
+   ```
+3. Run: `npm run dev`
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Prerequisites:** Node.js 18+
